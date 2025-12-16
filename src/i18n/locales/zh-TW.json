@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "Stoa 書架",
+    "description": "分散式個人圖書借閱系統",
+    "empty": "書架空空如也，新增第一本書吧！",
+    "loading": "載入中..."
+  },
+  "book": {
+    "status": {
+      "available": "可借閱",
+      "borrowed": "借出中"
+    },
+    "format": {
+      "physical": "紙本",
+      "ebook": "電子書"
+    },
+    "isbn": "ISBN",
+    "author": "作者",
+    "publisher": "出版社",
+    "addedDate": "加入日期",
+    "unknownTitle": "未知書名",
+    "unknownAuthor": "未知作者"
+  },
+  "action": {
+    "add": "新增書籍",
+    "delete": "刪除",
+    "share": "複製連結",
+    "confirm": "確定",
+    "cancel": "取消",
+    "toggle": "切換狀態",
+    "reload": "重新載入"
+  },
+  "addBook": {
+    "title": "新增書籍",
+    "isbnLabel": "ISBN",
+    "isbnPlaceholder": "輸入 ISBN-10 或 ISBN-13",
+    "formatLabel": "格式",
+    "submit": "新增",
+    "errors": {
+      "invalidIsbn": "請輸入有效的 ISBN",
+      "duplicate": "此書籍已存在於書架中",
+      "capacity": "書架已滿，無法新增更多書籍"
+    }
+  },
+  "deleteConfirm": {
+    "title": "確認刪除",
+    "message": "確定要刪除「{title}」嗎？此操作無法復原。"
+  },
+  "share": {
+    "copied": "連結已複製！",
+    "copyFailed": "複製失敗，請手動複製網址",
+    "bookCount": "{count} 本書籍"
+  },
+  "capacity": {
+    "warning": "書架即將滿載",
+    "full": "書架已滿",
+    "usage": "已使用 {percentage}%"
+  },
+  "theme": {
+    "light": "淺色模式",
+    "dark": "深色模式",
+    "system": "跟隨系統"
+  }
+}
